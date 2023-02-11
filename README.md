@@ -20,3 +20,18 @@ java 的编程有很多时候需要在多线程中共享变量，很多时候我
 |---|---|---|
 |Loop May Never End|对象的可见性|由于可见性导致程序不会停止|
 |doubule check demo| 双检锁对象部分初始化|对象部分初始化|
+
+
+---
+
+
+happen before
+
+- Each action in a thread happens-before every subsequent action in that thread.
+- An unlock on a monitor happens-before every subsequent lock on that monitor.
+- A write to a volatile field happens-before every subsequent read of that volatile.
+- A call to start() on a thread happens-before any actions in the started thread.
+- All actions in a thread happen-before any other thread successfully returns from a join() on
+that thread.
+- If an action a happens-before an action b, and b happens before an action c, then a happens-
+before c.
