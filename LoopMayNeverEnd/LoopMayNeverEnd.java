@@ -1,13 +1,7 @@
 public class LoopMayNeverEnd {
     boolean done = false;
-
-    public LoopMayNeverEnd() {
-    }
-
     public void work() {
-        while(!this.done) {
-        }
-
+        while(!this.done) {}
     }
 
     public void stopWork() {
