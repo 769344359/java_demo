@@ -1,7 +1,10 @@
 
 public class Folder {
+    public static final boolean b = false;
     public static void main(String [] argv){
-        String demo = "a" + "b";
+        if(b == true){
+            System.out.println(b);
+        }
     }
     
 }
