@@ -20,6 +20,7 @@ java 的编程有很多时候需要在多线程中共享变量，很多时候我
 |---|---|---|
 |Loop May Never End|对象的可见性|由于可见性导致程序不会停止|
 |doubule check demo| 双检锁对象部分初始化|对象部分初始化|
+|IncrementTestDemo|volatile 写不是原子的|原子性不满足|
 
 
 ---
